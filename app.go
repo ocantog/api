@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	"github.com/ocantog/api/src/support"
+
+	"github.com/google/go-cmp/cmp"
 )
 
 func main() {
-	// var age uint8 = 35
+	fmt.Println(support.Reverse("!ovatsuG \n"))
 
-	fmt.Println(support.Reverse("!oG ,olleH \n"))
-
-	fmt.Println(support.Testing())
+	fmt.Println(cmp.Diff("Gustavo", "Gus"))
 }
